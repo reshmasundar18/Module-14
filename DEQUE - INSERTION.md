@@ -3,12 +3,12 @@
 
 ---
 
-### AIM  
+### AIM:  
 To write a Python program to insert elements at REAR END of deque using a collection built-in function.
 
 ---
 
-### ALGORITHM  
+### ALGORITHM: 
 
 1. Import the `deque` class from the `collections` module.  
 2. Initialize an empty deque.  
@@ -22,12 +22,24 @@ To write a Python program to insert elements at REAR END of deque using a collec
 
 ---
 
-### PROGRAM  
+### PROGRAM:  
+```
+import collections
+n1=int(input())
+n2=int(input())
+n3=int(input())
+de=collections.deque([n1,n2,n3])
+
+de.append(14)
+de.append(15)
+print("The deque after appending at right is : ")
+print(de)
 
 ```
 
-```
+### OUTPUT:
+<img width="805" height="293" alt="image" src="https://github.com/user-attachments/assets/eca16d3c-b464-45c2-ad7a-a09b76ab88fc" />
 
-### OUTPUT
+### RESULT:
+Thus the Python program to insert elements at REAR END of deque using a collection built-in function is implemented and executed successfully.
 
-### RESULT
